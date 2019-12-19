@@ -1,0 +1,45 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: coral;
+}
+
+h5 {
+    text-align: center;
+}
+
+.nav-bar {
+    display: block;
+    float: none;
+    width: 100%;
+    position: absolute;
+    left: 30%;
+}
+
+.nav-bar a {
+    background-color: #f08080;
+    color: #f2f2f2;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    float: left;
+    padding: 14px 16px;
+    margin-right: 15px;
+}
+
+.nav-bar a:hover {
+    background-color: #b8860b;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        width: 50%;
+    }
+    .nav-bar a {
+        float: none;
+        display: block;
+    }
+}
