@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.accordion {
+    width: 500px;
+    position: relative;
+    left: 25%;
+}
+
+#accordion .acc-body {
+    display: none;
+    padding: 10px;
+    height: 100px;
+}
+
+#accordion .acc-head {
+    background-color: lightblue;
+    height: 50px;
+    padding: 10px;
+}
+
+#accordion .active .acc-body {
+    display: block;
+    background-color: white;
+}
+
+#accordion .acc-section {
+    height: 100%;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#accordion .active .acc-section {
+    transition: 2s;
+}
