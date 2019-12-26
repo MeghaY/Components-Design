@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "Product_ID":7631,
+      "SKU":"HEH-9133",
+      "Name":"On Cloud Nine Pillow",
+      "fileName":"cloud_nine_pillow.jpeg",
+      "Price":24.99,
+      "Retail_Price":24.99,
+      "Color":"White",
+      "Rating_Avg":4.2,
+      "Rating_Count":8,
+      "Date_Created":"2018-03-03 17:41:13"
+    },
+    {
+      "Product_ID":6489,
+      "SKU":"DKO-PROF",
+      "Name":"Knock Your Socks Off Lace-Up Heels",
+      "fileName":"high_heels.jpg",
+      "Price":38,
+      "Retail_Price":60,
+      "Color":"Black",
+      "Rating_Avg":4.9,
+      "Rating_Count":4,
+      "Date_Created":"2018-02-28 23:37:28"
+    },
+    {
+      "Product_ID":7732,
+      "SKU":"HEH-2172",
+      "Name":"My Cup of Tea Sweater",
+      "fileName":"tea_tshirt.jpg",
+      "Price":68,
+      "Retail_Price":68,
+      "Color":"White",
+      "Rating_Avg":4.6,
+      "Rating_Count":22,
+      "Date_Created":"2018-03-01 20:18:20"
+    },
+    {
+      "Product_ID":7609,
+      "SKU":"HEH-2211",
+      "Name":"Walk On Out Slip On Sneakers",
+      "fileName":"walking_shoes.png",
+      "Price":34.99,
+      "Retail_Price":34.99,
+      "Color":"Bisque",
+      "Rating_Avg":3.9,
+      "Rating_Count":5,
+      "Date_Created":"2018-03-20 22:15:34"
+    },
+    {
+      "Product_ID":7675,
+      "SKU":"DKO-CAMEL",
+      "Name":"Warm Hearts Sweater",
+      "fileName":"sweater.jpg",
+      "Price":54.49,
+      "Retail_Price":54.49,
+      "Color":"Grey",
+      "Rating_Avg":5,
+      "Rating_Count":2,
+      "Date_Created":"2018-03-19 20:53:04"
+    },
+    {
+      "Product_ID":7463,
+      "SKU":"WKS-5026",
+      "Name":"Silver Lining Dress",
+      "fileName":"silver_dress.jpeg",
+      "Price":62,
+      "Retail_Price":62,
+      "Color":"Green Print",
+      "Rating_Avg":5,
+      "Rating_Count":9,
+      "Date_Created":"2018-03-01 19:59:05"
+    }
+    ]
+}
