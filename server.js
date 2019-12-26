@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const request = require('request');
+const fs = require('fs');
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
@@ -29,6 +30,15 @@ app.get('/getPhotos', function(req, res) {
 
         let json = JSON.parse(body);
         res.status(201).send(json);
+    });
+});
+
+app.get('/getProducts', function (req, res) {
+    fs.readFile('products.json', (err, data) => {
+        if (err) {
+            res.status(500).send(err);
+        }
+        res.status(201).send(data);
     });
 });
 
